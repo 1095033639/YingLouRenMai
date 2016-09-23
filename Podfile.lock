@@ -1,0 +1,88 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - HappyDNS (0.3.9)
+  - IQKeyboardManager (4.0.4)
+  - JPush-iOS-SDK (2.1.8)
+  - LCActionSheet (2.1.1):
+    - Masonry (~> 1.0.1)
+  - Masonry (1.0.1)
+  - MJExtension (3.0.13)
+  - pili-librtmp (1.0.3.1)
+  - PLPlayerKit (2.2.2):
+    - HappyDNS
+    - pili-librtmp (= 1.0.3.1)
+    - PLPlayerKit/precompiled (= 2.2.2)
+  - PLPlayerKit/precompiled (2.2.2):
+    - HappyDNS
+    - pili-librtmp (= 1.0.3.1)
+  - PLStreamingKit (1.2.5):
+    - HappyDNS
+    - pili-librtmp (= 1.0.3.1)
+    - PLStreamingKit/precompiled (= 1.2.5)
+  - PLStreamingKit/precompiled (1.2.5):
+    - HappyDNS
+    - pili-librtmp (= 1.0.3.1)
+  - pop (1.0.9)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - SVProgressHUD (2.0.3)
+  - UMengAnalytics (4.0.4)
+  - YYKit (1.0.7):
+    - YYKit/no-arc (= 1.0.7)
+  - YYKit/no-arc (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - FMDB
+  - IQKeyboardManager
+  - JPush-iOS-SDK
+  - LCActionSheet
+  - Masonry (~> 1.0.1)
+  - MJExtension (~> 3.0.10)
+  - PLPlayerKit
+  - PLStreamingKit
+  - pop
+  - SDWebImage (~> 3.8.1)
+  - SVProgressHUD
+  - UMengAnalytics
+  - YYKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  HappyDNS: 17be04178df2dd09f0ee6ac33628589b7f9910e8
+  IQKeyboardManager: 4a6f83b540283c2645aaeba2bd8dc0f09b5c77f8
+  JPush-iOS-SDK: ea5761841ba9beb7e9dab7523c5e6bfe06a48995
+  LCActionSheet: 552512ed382382a4bd2fe1521983267045628f23
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  pili-librtmp: 0adf2516f4b5958b3cb079a4c3d4f6a4a9f49ce9
+  PLPlayerKit: b5182ef942dce71678c9db07c2e1959df91e81cc
+  PLStreamingKit: 4b46739689d020b8e2eb755827ec86447c0291b7
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  UMengAnalytics: 4ed421fb3bca63b26fc13c947743cabf3831d199
+  YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
+
+PODFILE CHECKSUM: 9fa03a28f0793a8f7f27730f67ece71901e75bed
+
+COCOAPODS: 1.0.1

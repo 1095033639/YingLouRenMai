@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  YLRM
+//
+//  Created by Chan_Sir on 16/9/1.
+//  Copyright © 2016年 陈振超. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "RMConstKey.h"
+#import "HTTP_URL.h"
+#import "Define_Key.h"
+#import <YYKit.h>
+#import "UIView+Extension.h"
+
+
+/************重要键值*************/
+#define QiniuAppKey @"abc"  // 七牛直播key
+#define UMengCountKey @"kan" // 友盟统计key
+
+
+/***********开发阶段**************/
+#ifdef DEBUG // 处于开发阶段
+#define KGLog(...) NSLog(__VA_ARGS__)
+#else // 处于发布阶段
+#define KGLog(...)
+#endif
+
+#define LogSelectorName KGLog(@"__%s__",__func__);
+
+#endif
